@@ -1,6 +1,6 @@
-package week14.day01;
+package day01;
 
-public class Product {
+public class    Product {
 
     private String name;
     private String category;

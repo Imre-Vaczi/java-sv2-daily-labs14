@@ -1,4 +1,4 @@
-package week14.day01;
+package day01;
 
 import java.text.Collator;
 import java.time.LocalDate;
@@ -71,11 +71,4 @@ public class OrderService {
                         stream().anyMatch(p->p.getCategory().equals(category)))
                 .collect(Collectors.toList());
     }
-
-
-
-
-
-
-
 }
