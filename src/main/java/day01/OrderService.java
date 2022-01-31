@@ -58,7 +58,6 @@ public class OrderService {
                  .anyMatch(i->i<number);
     }
 
-
     public Order getOrderWithMaxNumberOfProducts(){
         return orders.stream()
                 .sorted(Collections.reverseOrder(Comparator.comparing(o->o.getProducts().size())))
